@@ -152,5 +152,24 @@ body {
     .scan-section {
         width: 100%;
     }
+    .shapes {
+        display: none;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    .block {
+        height: 100%;
+        margin: 0;
+        gap: 100px;
+    }
+    .bottom-section {
+        padding: 10px 30px;
+    }
+    .scan-section {
+        width: 75%;
+    }
+    .shapes {
+        display: none;
+    }
 }
 /* end of media query css */
