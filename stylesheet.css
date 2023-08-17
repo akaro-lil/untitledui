@@ -140,5 +140,17 @@ body {
 /* end of right side section css */
 
 /* start of media query css */
-
+@media only screen and (max-width: 600px) {
+    body {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .block {
+        width: 100%;
+        margin: 0;
+    }
+    .scan-section {
+        width: 100%;
+    }
+}
 /* end of media query css */
